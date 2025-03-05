@@ -77,92 +77,9 @@
 
 				<div class = "previous-events">
 					<h2 class="event-heading first-event">Previous Events</h2>
-					<!--Children Party Event-->
-					<div class = "event-container children-day">
-						<div class = "event-picture">
-							<img src="images/child's-party-5.jpg">
-						</div>
-						<div class ="previous-event-header">
-							<h3>Children's Christmas Party</h3>
-							<div class = "date">
-								<i class = "fa fa-calendar"></i>
-								21  Dec 2024
-							</div>
-						</div>
-						<p></p>
-						<div class="event-brief">
-							<p>
-							On <strong>21st December 2024</strong>, <strong>Living Faith International Ministries</strong>
-							hosted a heartwarming <strong>Children’s Christmas Party</strong>, bringing together 
-							young hearts for a day filled with joy, laughter, and the true spirit of Christmas.
-							</p>
-						</div>
-
-						<div class = "see-more" role="button">
-							See More...
-						</div>
-
-						<div class="event-description animate_animated hidden">
-        
-       						<p>
-								<span class="highlight">What a joyful and heartwarming celebration it was!
-								</span> 
-								On a magical December day, our church family came together to host an
-						 		<b>unforgettable Christmas party</b> for our little ones. Smiles, laughter, and 
-							 	the spirit of giving filled the air! 🎁💖
-							</p>
-							<p> What made it Special?</p>
-        					<ul>
-           				 		<li>✨ <strong>Bible Storytime</strong> – Teaching the true meaning of Christmas and the birth of Jesus Christ.</li>
-								<li>🎶 <strong>Christmas Carols & Worship</strong> – Children sang their favorite Christmas songs, filling the church with a joyful melody.</li>
-								<li>🎨 <strong>Arts & Crafts</strong> – Kids created beautiful Christmas decorations and cards to take home.</li>
-								<li>🎭 <strong>Drama & Skits</strong> – A special nativity play performed by the children, retelling the story of Jesus’ birth.</li>
-								<li>🎁 <strong>Gift Giving & Surprises</strong> – Every child received a special Christmas gift, spreading love and generosity.</li>
-								<li>🍰 <strong>Delicious Treats</strong> – A feast of festive snacks, sweets, and a Christmas cake for everyone to enjoy.</li>
-							</ul>
-
-							<p></p>
-        					<p>
-							   More than just a party, this event was about spreading love, sharing happiness,
-							   and creating memories that will last a lifetime. Our children's ministry worked
-							   irelessly to ensure that each child felt special and blessed. 🙏❤️
-							</p>
-
-        					<p>
-								We are grateful to all the parents, volunteers, and church members who made this day
-								 possible. Seeing the smiles and excitement on the children’s faces reminded us of Jesus’ words:
-							</p>
-
-        					<p class="bible-verse">
-								"Let the little children come to me, and do not hinder them, for the kingdom
-								 of heaven belongs to such as these." – <strong>Matthew 19:14</strong>
-							</p>
-
-							<div class = "see-less" role="button">See Less</div>
-							<p></p>
-							
-							<div class="section gallery">
-								<div class="section-bar event-gallery-bar" role="button" id="childrenGallery-open-button">
-									<h2 class="section-bar-title">Event Gallery</h2>
-									<img class="drop-down" src="images/dropdown.png">
-								</div>
-			
-								<div class="hidden" id = "childrenGallery-content">
-									<div class="event-picture-item">
-										<img src="images/child's-party-1.jpg" class = "event-image" alt="images child">
-										<img src="images/child's-party-2.jpg" class = "event-image" alt="images child">
-										<img src="images/child's-party-3.jpg" class = "event-image" alt="images child">
-										<img src="images/child's-party-4.jpg" class = "event-image" alt="images child">
-										<img src="images/child's-party-5.jpg" class = "event-image" alt="images child">	
-									</div>
-								</div>
-							</div>
-
-						</div>
-					</div>
 
 					<!--Youth party-->
-					<div class = "event-container youth-day">
+					<div class = "event-container youth-day" id="youth">
 						<div class = "event-picture">
 							<img src="images/youth-1.jpg">
 						</div>
@@ -248,6 +165,90 @@
 							</div>
 						</div>
 
+					</div>
+
+					<!--Children Party Event-->
+					<div class = "event-container children-day" id="children">
+						<div class = "event-picture">
+							<img src="images/child's-party-5.jpg">
+						</div>
+						<div class ="previous-event-header">
+							<h3>Children's Christmas Party</h3>
+							<div class = "date">
+								<i class = "fa fa-calendar"></i>
+								21  Dec 2024
+							</div>
+						</div>
+						<p></p>
+						<div class="event-brief">
+							<p>
+							On <strong>21st December 2024</strong>, <strong>Living Faith International Ministries</strong>
+							hosted a heartwarming <strong>Children’s Christmas Party</strong>, bringing together 
+							young hearts for a day filled with joy, laughter, and the true spirit of Christmas.
+							</p>
+						</div>
+
+						<div class = "see-more" role="button">
+							See More...
+						</div>
+
+						<div class="event-description animate_animated hidden">
+        
+       						<p>
+								<span class="highlight">What a joyful and heartwarming celebration it was!
+								</span> 
+								On a magical December day, our church family came together to host an
+						 		<b>unforgettable Christmas party</b> for our little ones. Smiles, laughter, and 
+							 	the spirit of giving filled the air! 🎁💖
+							</p>
+							<p> What made it Special?</p>
+        					<ul>
+           				 		<li>✨ <strong>Bible Storytime</strong> – Teaching the true meaning of Christmas and the birth of Jesus Christ.</li>
+								<li>🎶 <strong>Christmas Carols & Worship</strong> – Children sang their favorite Christmas songs, filling the church with a joyful melody.</li>
+								<li>🎨 <strong>Arts & Crafts</strong> – Kids created beautiful Christmas decorations and cards to take home.</li>
+								<li>🎭 <strong>Drama & Skits</strong> – A special nativity play performed by the children, retelling the story of Jesus’ birth.</li>
+								<li>🎁 <strong>Gift Giving & Surprises</strong> – Every child received a special Christmas gift, spreading love and generosity.</li>
+								<li>🍰 <strong>Delicious Treats</strong> – A feast of festive snacks, sweets, and a Christmas cake for everyone to enjoy.</li>
+							</ul>
+
+							<p></p>
+        					<p>
+							   More than just a party, this event was about spreading love, sharing happiness,
+							   and creating memories that will last a lifetime. Our children's ministry worked
+							   irelessly to ensure that each child felt special and blessed. 🙏❤️
+							</p>
+
+        					<p>
+								We are grateful to all the parents, volunteers, and church members who made this day
+								 possible. Seeing the smiles and excitement on the children’s faces reminded us of Jesus’ words:
+							</p>
+
+        					<p class="bible-verse">
+								"Let the little children come to me, and do not hinder them, for the kingdom
+								 of heaven belongs to such as these." – <strong>Matthew 19:14</strong>
+							</p>
+
+							<div class = "see-less" role="button">See Less</div>
+							<p></p>
+							
+							<div class="section gallery">
+								<div class="section-bar event-gallery-bar" role="button" id="childrenGallery-open-button">
+									<h2 class="section-bar-title">Event Gallery</h2>
+									<img class="drop-down" src="images/dropdown.png">
+								</div>
+			
+								<div class="hidden" id = "childrenGallery-content">
+									<div class="event-picture-item">
+										<img src="images/child's-party-1.jpg" class = "event-image" alt="images child">
+										<img src="images/child's-party-2.jpg" class = "event-image" alt="images child">
+										<img src="images/child's-party-3.jpg" class = "event-image" alt="images child">
+										<img src="images/child's-party-4.jpg" class = "event-image" alt="images child">
+										<img src="images/child's-party-5.jpg" class = "event-image" alt="images child">	
+									</div>
+								</div>
+							</div>
+
+						</div>
 					</div>
 
 					<!--Crusade Party-->
